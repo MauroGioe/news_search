@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb1680f1-bbdf-4ce0-8378-ab31397b79d5" name="Changes" comment="modified dockerfile">
-      <change afterPath="$PROJECT_DIR$/app/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/web_scraper.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ollama/Dockerfile" afterDir="false" />
+    <list default="true" id="bb1680f1-bbdf-4ce0-8378-ab31397b79d5" name="Changes" comment="fixed container structure using docker compose">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run-ollama.sh" beforeDir="false" afterPath="$PROJECT_DIR$/ollama/run-ollama.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ollama/run-ollama.sh" beforeDir="false" afterPath="$PROJECT_DIR$/ollama/run-ollama.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +69,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737376231783</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="fixed container structure using docker compose">
+      <option name="closed" value="true" />
+      <created>1737402035474</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1737402035474</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -92,6 +94,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="basic setup" />
     <MESSAGE value="modified dockerfile" />
-    <option name="LAST_COMMIT_MESSAGE" value="modified dockerfile" />
+    <MESSAGE value="fixed container structure using docker compose" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed container structure using docker compose" />
   </component>
 </project>

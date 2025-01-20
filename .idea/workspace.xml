@@ -4,9 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb1680f1-bbdf-4ce0-8378-ab31397b79d5" name="Changes" comment="basic setup">
+    <list default="true" id="bb1680f1-bbdf-4ce0-8378-ab31397b79d5" name="Changes" comment="modified dockerfile">
+      <change afterPath="$PROJECT_DIR$/app/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/web_scraper.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ollama/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run-ollama.sh" beforeDir="false" afterPath="$PROJECT_DIR$/ollama/run-ollama.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +37,12 @@
     &quot;git-widget-placeholder&quot;: &quot;master&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\mauro\PycharmProjects\news_search\app" />
+      <recent name="C:\Users\mauro\PycharmProjects\news_search\ollama" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -55,7 +67,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737316049383</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="modified dockerfile">
+      <option name="closed" value="true" />
+      <created>1737376231783</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1737376231783</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -71,6 +91,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="basic setup" />
-    <option name="LAST_COMMIT_MESSAGE" value="basic setup" />
+    <MESSAGE value="modified dockerfile" />
+    <option name="LAST_COMMIT_MESSAGE" value="modified dockerfile" />
   </component>
 </project>

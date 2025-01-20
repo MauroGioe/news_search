@@ -1,0 +1,27 @@
+version: "3"
+
+services:
+  app:
+    build: app
+    ports:
+      - 8000:8000
+    volumes:
+      - ./app:/app_dir
+    networks:
+      - net
+  ollama:
+    build: ollama
+    ports:
+      - 11434:11434
+    volumes:
+      - vol:/ollama
+    networks:
+      - net
+
+networks:
+  net:
+    driver: bridge
+
+volumes:
+  vol:
+    driver: local

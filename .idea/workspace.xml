@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb1680f1-bbdf-4ce0-8378-ab31397b79d5" name="Changes" comment="pulling embedding model">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="bb1680f1-bbdf-4ce0-8378-ab31397b79d5" name="Changes" comment="Changing readme">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +115,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737821979492</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Changing readme">
+      <option name="closed" value="true" />
+      <created>1737822445084</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1737822445084</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -137,6 +145,7 @@
     <MESSAGE value="fix for endless model serving" />
     <MESSAGE value="implemented web scraper and basic elements for the web app" />
     <MESSAGE value="pulling embedding model" />
-    <option name="LAST_COMMIT_MESSAGE" value="pulling embedding model" />
+    <MESSAGE value="Changing readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changing readme" />
   </component>
 </project>

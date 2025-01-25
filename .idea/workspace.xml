@@ -4,15 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb1680f1-bbdf-4ce0-8378-ab31397b79d5" name="Changes" comment="temporary switch to a small model">
+    <list default="true" id="bb1680f1-bbdf-4ce0-8378-ab31397b79d5" name="Changes" comment="fix for endless model serving">
+      <change afterPath="$PROJECT_DIR$/app/web_app.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ollama/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/ollama/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ollama/run-ollama.sh" beforeDir="false" afterPath="$PROJECT_DIR$/ollama/run-ollama.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/web_scraper.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/web_scraper.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -86,7 +93,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737406238568</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="fix for endless model serving">
+      <option name="closed" value="true" />
+      <created>1737408570471</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1737408570471</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -105,6 +120,7 @@
     <MESSAGE value="modified dockerfile" />
     <MESSAGE value="fixed container structure using docker compose" />
     <MESSAGE value="temporary switch to a small model" />
-    <option name="LAST_COMMIT_MESSAGE" value="temporary switch to a small model" />
+    <MESSAGE value="fix for endless model serving" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix for endless model serving" />
   </component>
 </project>

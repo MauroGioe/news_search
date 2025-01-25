@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb1680f1-bbdf-4ce0-8378-ab31397b79d5" name="Changes" comment="fix for endless model serving">
-      <change afterPath="$PROJECT_DIR$/app/web_app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/web_scraper.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/web_scraper.py" afterDir="false" />
+    <list default="true" id="bb1680f1-bbdf-4ce0-8378-ab31397b79d5" name="Changes" comment="pulling embedding model">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +99,23 @@
       <option name="project" value="LOCAL" />
       <updated>1737408570471</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="implemented web scraper and basic elements for the web app">
+      <option name="closed" value="true" />
+      <created>1737821731072</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1737821731072</updated>
+    </task>
+    <task id="LOCAL-00007" summary="pulling embedding model">
+      <option name="closed" value="true" />
+      <created>1737821979492</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1737821979492</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -121,6 +135,8 @@
     <MESSAGE value="fixed container structure using docker compose" />
     <MESSAGE value="temporary switch to a small model" />
     <MESSAGE value="fix for endless model serving" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix for endless model serving" />
+    <MESSAGE value="implemented web scraper and basic elements for the web app" />
+    <MESSAGE value="pulling embedding model" />
+    <option name="LAST_COMMIT_MESSAGE" value="pulling embedding model" />
   </component>
 </project>

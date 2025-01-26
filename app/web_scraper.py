@@ -56,9 +56,9 @@ def store_results(news, results):
     ids = [hashlib.sha256(url.encode()).hexdigest() for url in news]
     vectorestore = Chroma.from_texts(persist_directory = "/dbfs/ChromaDB", texts = results, embedding= local_embeddings,
                                      collection_name = "game_news", ids = ids)
-
+    print("DB saved")
 if __name__ == "__main__":
     news = get_ign_urls(sitemap)
-    news = news[:2]
+    news = news[:5]
     results = main(news, model = "smollm:135m")
     store_results(news, results)

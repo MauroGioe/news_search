@@ -54,10 +54,11 @@ def main (news, model):
 def store_results(news, results):
     local_embeddings = OllamaEmbeddings(model = "all-minilm")
     ids = [hashlib.sha256(url.encode()).hexdigest() for url in news]
-    vectorestore = Chroma.from_texts(texts = results, embedding= local_embeddings, collection_name = "game_news", ids = ids)
+    vectorestore = Chroma.from_texts(persist_directory = "/dbfs/ChromaDB", texts = results, embedding= local_embeddings,
+                                     collection_name = "game_news", ids = ids)
 
 if __name__ == "__main__":
     news = get_ign_urls(sitemap)
-    news = news[:3]
+    news = news[:2]
     results = main(news, model = "smollm:135m")
     store_results(news, results)

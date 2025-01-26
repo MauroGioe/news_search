@@ -8,8 +8,6 @@ import hashlib
 #had to run playwright install for first time use
 
 sitemap = "https://www.ign.com/rss/news/sitemap"
-url = "https://www.ign.com/articles/dragon-age-the-veilguard-patch-notes-sure-make-it-sound-like-biowares-basically-done-with-the-game-now"
-
 
 async def scrape_markdown(url):
     async with AsyncWebCrawler() as crawler:

@@ -6,7 +6,7 @@ from langchain_ollama import OllamaEmbeddings
 from langchain_chroma import Chroma
 
 def scrape_and_save():
-    subprocess.run([f"{sys.executable}", "app/web_scraper.py"])
+    subprocess.run([f"{sys.executable}", "./web_scraper.py"])
 
 
 def answer_the_question(question, model, num_doc_to_retrieve, context_window = 20000):

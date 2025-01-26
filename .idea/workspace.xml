@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb1680f1-bbdf-4ce0-8378-ab31397b79d5" name="Changes" comment="added model choice and changed rag retrieval command">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/web_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/web_app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/web_scraper.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/web_scraper.py" afterDir="false" />
-    </list>
+    <list default="true" id="bb1680f1-bbdf-4ce0-8378-ab31397b79d5" name="Changes" comment="updated reqs" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -165,7 +161,23 @@
       <option name="project" value="LOCAL" />
       <updated>1737929863848</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="small addittions">
+      <option name="closed" value="true" />
+      <created>1737930982758</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1737930982758</updated>
+    </task>
+    <task id="LOCAL-00015" summary="updated reqs">
+      <option name="closed" value="true" />
+      <created>1737931091481</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1737931091481</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -193,6 +205,8 @@
     <MESSAGE value="implemented basic web app" />
     <MESSAGE value="added absolute path for chromaDB" />
     <MESSAGE value="added model choice and changed rag retrieval command" />
-    <option name="LAST_COMMIT_MESSAGE" value="added model choice and changed rag retrieval command" />
+    <MESSAGE value="small addittions" />
+    <MESSAGE value="updated reqs" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated reqs" />
   </component>
 </project>

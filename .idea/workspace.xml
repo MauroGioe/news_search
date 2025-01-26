@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb1680f1-bbdf-4ce0-8378-ab31397b79d5" name="Changes" comment="__main__ for web scraper">
+    <list default="true" id="bb1680f1-bbdf-4ce0-8378-ab31397b79d5" name="Changes" comment="added absolute path for chromaDB">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/web_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/web_app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/web_scraper.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/web_scraper.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,7 +139,23 @@
       <option name="project" value="LOCAL" />
       <updated>1737832562276</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="implemented basic web app">
+      <option name="closed" value="true" />
+      <created>1737925739468</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1737925739468</updated>
+    </task>
+    <task id="LOCAL-00012" summary="added absolute path for chromaDB">
+      <option name="closed" value="true" />
+      <created>1737925781620</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1737925781620</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -166,6 +180,8 @@
     <MESSAGE value="Changing readme" />
     <MESSAGE value="typo" />
     <MESSAGE value="__main__ for web scraper" />
-    <option name="LAST_COMMIT_MESSAGE" value="__main__ for web scraper" />
+    <MESSAGE value="implemented basic web app" />
+    <MESSAGE value="added absolute path for chromaDB" />
+    <option name="LAST_COMMIT_MESSAGE" value="added absolute path for chromaDB" />
   </component>
 </project>

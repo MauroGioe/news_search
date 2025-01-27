@@ -47,5 +47,10 @@ answer = st.text_input("Ask a video game news related question", key="question",
 
 st.write(st.session_state['answer'])
 
+def print_scraped_news():
+    st.write(vectordb.get())
+
+st.button("Print scraped news", on_click = print_scraped_news)
+
 #st.write(vectordb.get())
 #vectordb.delete_collection()

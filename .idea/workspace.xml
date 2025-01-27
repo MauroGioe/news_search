@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb1680f1-bbdf-4ce0-8378-ab31397b79d5" name="Changes" comment="updated reqs" />
+    <list default="true" id="bb1680f1-bbdf-4ce0-8378-ab31397b79d5" name="Changes" comment="removing useless url">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/app/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/compose.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -177,7 +181,23 @@
       <option name="project" value="LOCAL" />
       <updated>1737931091481</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="changed paths">
+      <option name="closed" value="true" />
+      <created>1737932299348</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1737932299348</updated>
+    </task>
+    <task id="LOCAL-00017" summary="removing useless url">
+      <option name="closed" value="true" />
+      <created>1737932330541</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1737932330541</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -207,6 +227,8 @@
     <MESSAGE value="added model choice and changed rag retrieval command" />
     <MESSAGE value="small addittions" />
     <MESSAGE value="updated reqs" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated reqs" />
+    <MESSAGE value="changed paths" />
+    <MESSAGE value="removing useless url" />
+    <option name="LAST_COMMIT_MESSAGE" value="removing useless url" />
   </component>
 </project>

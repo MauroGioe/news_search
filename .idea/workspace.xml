@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb1680f1-bbdf-4ce0-8378-ab31397b79d5" name="Changes" comment="modified exposed port">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/web_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/web_app.py" afterDir="false" />
-    </list>
+    <list default="true" id="bb1680f1-bbdf-4ce0-8378-ab31397b79d5" name="Changes" comment="changing search type" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -204,7 +201,79 @@
       <option name="project" value="LOCAL" />
       <updated>1737964761043</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="install playwright">
+      <option name="closed" value="true" />
+      <created>1737968664963</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1737968664963</updated>
+    </task>
+    <task id="LOCAL-00020" summary="loaded models from the ollama service">
+      <option name="closed" value="true" />
+      <created>1737968752595</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1737968752595</updated>
+    </task>
+    <task id="LOCAL-00021" summary="changed llm to llama3.2:1b">
+      <option name="closed" value="true" />
+      <created>1737973152192</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1737973152192</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Updated readme">
+      <option name="closed" value="true" />
+      <created>1737975291740</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1737975291740</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Removed cache for asyncwebcrawler">
+      <option name="closed" value="true" />
+      <created>1737978052743</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1737978052744</updated>
+    </task>
+    <task id="LOCAL-00024" summary="typo">
+      <option name="closed" value="true" />
+      <created>1737980361872</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1737980361872</updated>
+    </task>
+    <task id="LOCAL-00025" summary="changed default num_doc_to_retrieve">
+      <option name="closed" value="true" />
+      <created>1737980408994</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1737980408994</updated>
+    </task>
+    <task id="LOCAL-00026" summary="added a button to print scraped news directly">
+      <option name="closed" value="true" />
+      <created>1737980705261</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1737980705261</updated>
+    </task>
+    <task id="LOCAL-00027" summary="changing search type">
+      <option name="closed" value="true" />
+      <created>1737984199619</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1737984199619</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -219,7 +288,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="basic setup" />
     <MESSAGE value="modified dockerfile" />
     <MESSAGE value="fixed container structure using docker compose" />
     <MESSAGE value="temporary switch to a small model" />
@@ -227,7 +295,6 @@
     <MESSAGE value="implemented web scraper and basic elements for the web app" />
     <MESSAGE value="pulling embedding model" />
     <MESSAGE value="Changing readme" />
-    <MESSAGE value="typo" />
     <MESSAGE value="__main__ for web scraper" />
     <MESSAGE value="implemented basic web app" />
     <MESSAGE value="added absolute path for chromaDB" />
@@ -237,6 +304,15 @@
     <MESSAGE value="changed paths" />
     <MESSAGE value="removing useless url" />
     <MESSAGE value="modified exposed port" />
-    <option name="LAST_COMMIT_MESSAGE" value="modified exposed port" />
+    <MESSAGE value="install playwright" />
+    <MESSAGE value="loaded models from the ollama service" />
+    <MESSAGE value="changed llm to llama3.2:1b" />
+    <MESSAGE value="Updated readme" />
+    <MESSAGE value="Removed cache for asyncwebcrawler" />
+    <MESSAGE value="typo" />
+    <MESSAGE value="changed default num_doc_to_retrieve" />
+    <MESSAGE value="added a button to print scraped news directly" />
+    <MESSAGE value="changing search type" />
+    <option name="LAST_COMMIT_MESSAGE" value="changing search type" />
   </component>
 </project>

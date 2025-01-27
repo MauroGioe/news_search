@@ -19,9 +19,9 @@ def answer_the_question(question, model, num_doc_to_retrieve, context_window = 2
     response = ollama_client.chat(model= model, messages=[
       {
         'role': 'user',
-        'content': f'''Answer the question according to the context given only if question and context are related:
-                       Question: {question}.
-                       Context: {context}
+        'content': f'''Answer the question according to the context given only if possible,:
+                    Context: {context}.
+                    Question: {question}.
                         ''',
       },
     ],  options={"temperature":0, "num_ctx":context_window})

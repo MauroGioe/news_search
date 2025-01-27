@@ -11,10 +11,14 @@ ollama_client = Client(host='http://ollama:11434/')
 
 sitemap = "https://www.ign.com/rss/news/sitemap"
 
+run_cfg = CrawlerRunConfig(
+    cache_mode=CacheMode.BYPASS,
+)
+
 async def scrape_markdown(url):
     async with AsyncWebCrawler() as crawler:
         result = await crawler.arun(
-            url= url
+            url= url, config=run_cfg
         )
         return result.markdown
 

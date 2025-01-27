@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb1680f1-bbdf-4ce0-8378-ab31397b79d5" name="Changes" comment="removing useless url">
+    <list default="true" id="bb1680f1-bbdf-4ce0-8378-ab31397b79d5" name="Changes" comment="modified exposed port">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/app/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/web_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/web_app.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -197,7 +196,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737932330541</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="modified exposed port">
+      <option name="closed" value="true" />
+      <created>1737964761043</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1737964761043</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -229,6 +236,7 @@
     <MESSAGE value="updated reqs" />
     <MESSAGE value="changed paths" />
     <MESSAGE value="removing useless url" />
-    <option name="LAST_COMMIT_MESSAGE" value="removing useless url" />
+    <MESSAGE value="modified exposed port" />
+    <option name="LAST_COMMIT_MESSAGE" value="modified exposed port" />
   </component>
 </project>

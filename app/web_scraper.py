@@ -5,6 +5,8 @@ import re
 from langchain_ollama import OllamaEmbeddings
 from langchain_chroma import Chroma
 import hashlib
+from ollama import Client
+ollama_client = Client(host='http://ollama:11434/')
 #had to run playwright install for first time use
 
 sitemap = "https://www.ign.com/rss/news/sitemap"
@@ -31,7 +33,7 @@ def get_ign_urls(sitemap):
 
 
 def summarize_news(markdown, model, context_window = 20000):
-    response = ollama.chat(model = model, messages = [
+    response = ollama_client.chat(model = model, messages = [
       {
         'role': 'user',
         'content': f"summarize the main news from the following markdown and add the news time release to the end. Markdown: {markdown}",
@@ -50,7 +52,7 @@ def main (news, model):
 
 
 def store_results(news, results):
-    local_embeddings = OllamaEmbeddings(model = "all-minilm")
+    local_embeddings = OllamaEmbeddings(model = "all-minilm", base_url = "http://ollama:11434/")
     ids = [hashlib.sha256(url.encode()).hexdigest() for url in news]
     vectorestore = Chroma.from_texts(persist_directory = "/dbfs/ChromaDB", texts = results, embedding= local_embeddings,
                                      collection_name = "game_news", ids = ids)

@@ -4,6 +4,8 @@ import sys
 import ollama
 from langchain_ollama import OllamaEmbeddings
 from langchain_chroma import Chroma
+from ollama import Client
+ollama_client = Client(host='http://ollama:11434/')
 
 def scrape_and_save():
     subprocess.run([f"{sys.executable}", "./web_scraper.py"])
@@ -14,7 +16,7 @@ def answer_the_question(question, model, num_doc_to_retrieve, context_window = 2
     #retrieved_doc = retriever.invoke(question)
     print(retrieved_doc)
     context = " ".join(doc.page_content for doc in retrieved_doc)
-    response = ollama.chat(model= model, messages=[
+    response = ollama_client.chat(model= model, messages=[
       {
         'role': 'user',
         'content': f'''Answer the question according to the context given only if question and context are related:
@@ -36,7 +38,7 @@ if 'num_doc_to_retrieve' not in st.session_state:
 
 st.button("Scrape video game news", on_click = scrape_and_save)
 
-local_embeddings = OllamaEmbeddings(model = "all-minilm")
+local_embeddings = OllamaEmbeddings(model = "all-minilm", base_url = 'http://ollama:11434/')
 vectordb = Chroma(persist_directory = "/dbfs/ChromaDB", embedding_function=local_embeddings, collection_name = "game_news")
 
 st.text_input("What's the maximum number of news you want to hear about?", key="num_doc_to_retrieve")

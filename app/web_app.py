@@ -34,7 +34,7 @@ if 'question' not in st.session_state:
 if 'answer' not in st.session_state:
     st.session_state['answer'] = ''
 if 'num_doc_to_retrieve' not in st.session_state:
-    st.session_state['num_doc_to_retrieve'] = "5"
+    st.session_state['num_doc_to_retrieve'] = "2"
 
 st.button("Scrape video game news", on_click = scrape_and_save)
 

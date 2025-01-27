@@ -12,8 +12,8 @@ def scrape_and_save():
 
 
 def answer_the_question(question, model, num_doc_to_retrieve, context_window = 20000):
-    retrieved_doc = vectordb.similarity_search(question, k = num_doc_to_retrieve)
-    #retrieved_doc = retriever.invoke(question)
+    retriever = vectordb.as_retriever(search_type="mmr", search_kwargs={"k": num_doc_to_retrieve, "lambda_mult": 1})
+    retrieved_doc = retriever.invoke(question)
     print(retrieved_doc)
     context = " ".join(doc.page_content for doc in retrieved_doc)
     response = ollama_client.chat(model= model, messages=[

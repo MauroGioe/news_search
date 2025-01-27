@@ -60,5 +60,5 @@ def store_results(news, results):
 if __name__ == "__main__":
     news = get_ign_urls(sitemap)
     news = news[:5]
-    results = main(news, model = "smollm:135m")
+    results = main(news, model = "llama3.2:1b")
     store_results(news, results)

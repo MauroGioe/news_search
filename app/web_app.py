@@ -43,7 +43,7 @@ vectordb = Chroma(persist_directory = "/dbfs/ChromaDB", embedding_function=local
 
 st.text_input("What's the maximum number of news you want to hear about?", key="num_doc_to_retrieve")
 answer = st.text_input("Ask a video game news related question", key="question", on_change = answer_the_question,
-              args = (st.session_state.question, "llama3.2:1b",  int(st.session_state.num_doc_to_retrieve)))
+              args = (st.session_state.question, "qwen2.5:1.5b",  int(st.session_state.num_doc_to_retrieve)))
 
 st.write(st.session_state['answer'])
 

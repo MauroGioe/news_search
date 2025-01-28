@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb1680f1-bbdf-4ce0-8378-ab31397b79d5" name="Changes" comment="switched to qwen2.5:1.5b as llm for streamlit app">
+    <list default="true" id="bb1680f1-bbdf-4ce0-8378-ab31397b79d5" name="Changes" comment="typo">
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -307,7 +307,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738085201500</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="typo">
+      <option name="closed" value="true" />
+      <created>1738085570234</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1738085570234</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -339,7 +347,6 @@
     <MESSAGE value="changed llm to llama3.2:1b" />
     <MESSAGE value="Updated readme" />
     <MESSAGE value="Removed cache for asyncwebcrawler" />
-    <MESSAGE value="typo" />
     <MESSAGE value="changed default num_doc_to_retrieve" />
     <MESSAGE value="added a button to print scraped news directly" />
     <MESSAGE value="changing search type" />
@@ -347,6 +354,7 @@
     <MESSAGE value="changed default value of num_doc_to_retrieve" />
     <MESSAGE value="changed llm template" />
     <MESSAGE value="switched to qwen2.5:1.5b as llm for streamlit app" />
-    <option name="LAST_COMMIT_MESSAGE" value="switched to qwen2.5:1.5b as llm for streamlit app" />
+    <MESSAGE value="typo" />
+    <option name="LAST_COMMIT_MESSAGE" value="typo" />
   </component>
 </project>

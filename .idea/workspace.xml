@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb1680f1-bbdf-4ce0-8378-ab31397b79d5" name="Changes" comment="changing search type" />
+    <list default="true" id="bb1680f1-bbdf-4ce0-8378-ab31397b79d5" name="Changes" comment="changed default value of num_doc_to_retrieve">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/web_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/web_app.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -273,7 +276,23 @@
       <option name="project" value="LOCAL" />
       <updated>1737984199619</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="slight change to the llm prompt">
+      <option name="closed" value="true" />
+      <created>1738003346185</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1738003346185</updated>
+    </task>
+    <task id="LOCAL-00029" summary="changed default value of num_doc_to_retrieve">
+      <option name="closed" value="true" />
+      <created>1738003405403</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1738003405403</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -288,8 +307,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="modified dockerfile" />
-    <MESSAGE value="fixed container structure using docker compose" />
     <MESSAGE value="temporary switch to a small model" />
     <MESSAGE value="fix for endless model serving" />
     <MESSAGE value="implemented web scraper and basic elements for the web app" />
@@ -313,6 +330,8 @@
     <MESSAGE value="changed default num_doc_to_retrieve" />
     <MESSAGE value="added a button to print scraped news directly" />
     <MESSAGE value="changing search type" />
-    <option name="LAST_COMMIT_MESSAGE" value="changing search type" />
+    <MESSAGE value="slight change to the llm prompt" />
+    <MESSAGE value="changed default value of num_doc_to_retrieve" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed default value of num_doc_to_retrieve" />
   </component>
 </project>

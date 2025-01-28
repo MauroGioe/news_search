@@ -20,5 +20,5 @@ Navigate to http://localhost:8501/ in your web browser and insert in the text bo
 video game related question (e.g. "can you tell me the latest news about <video game/console name>?").
 The news come from https://www.ign.com/rss/news/sitemap, the latest five news are extracted
 each time you click on the button "Scrape video game news", it has to be clicked at least once.
-The model being used is relatively small, so it hallucinates easily, using bigger models leads
+The model being used for answering the user questions is relatively small, so it may hallucinate, using bigger models leads
 to RAM usage problems.

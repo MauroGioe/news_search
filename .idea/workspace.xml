@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb1680f1-bbdf-4ce0-8378-ab31397b79d5" name="Changes" comment="changed llm template">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/web_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/web_app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ollama/run-ollama.sh" beforeDir="false" afterPath="$PROJECT_DIR$/ollama/run-ollama.sh" afterDir="false" />
+    <list default="true" id="bb1680f1-bbdf-4ce0-8378-ab31397b79d5" name="Changes" comment="switched to qwen2.5:1.5b as llm for streamlit app">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -301,7 +299,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738072592833</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="switched to qwen2.5:1.5b as llm for streamlit app">
+      <option name="closed" value="true" />
+      <created>1738085201500</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1738085201500</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -316,7 +322,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fix for endless model serving" />
     <MESSAGE value="implemented web scraper and basic elements for the web app" />
     <MESSAGE value="pulling embedding model" />
     <MESSAGE value="Changing readme" />
@@ -341,6 +346,7 @@
     <MESSAGE value="slight change to the llm prompt" />
     <MESSAGE value="changed default value of num_doc_to_retrieve" />
     <MESSAGE value="changed llm template" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed llm template" />
+    <MESSAGE value="switched to qwen2.5:1.5b as llm for streamlit app" />
+    <option name="LAST_COMMIT_MESSAGE" value="switched to qwen2.5:1.5b as llm for streamlit app" />
   </component>
 </project>

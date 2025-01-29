@@ -42,7 +42,7 @@ local_embeddings = OllamaEmbeddings(model = "all-minilm", base_url = 'http://oll
 vectordb = Chroma(persist_directory = "/dbfs/ChromaDB", embedding_function=local_embeddings, collection_name = "game_news")
 
 st.text_input("What's the maximum number of news you want to hear about?", key="num_doc_to_retrieve")
-answer = st.text_input("Ask a video game news related question", key="question", on_change = answer_the_question,
+st.text_input("Ask a video game news related question", key="question", on_change = answer_the_question,
               args = (st.session_state.question, "qwen2.5:1.5b",  int(st.session_state.num_doc_to_retrieve)))
 
 st.write(st.session_state['answer'])

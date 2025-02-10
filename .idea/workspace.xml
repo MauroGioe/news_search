@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb1680f1-bbdf-4ce0-8378-ab31397b79d5" name="Changes" comment="typo">
+    <list default="true" id="bb1680f1-bbdf-4ce0-8378-ab31397b79d5" name="Changes" comment="Fixed double question bug">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/web_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/web_app.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -332,7 +331,23 @@
       <option name="project" value="LOCAL" />
       <updated>1738147921582</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Fixed double question bug">
+      <option name="closed" value="true" />
+      <created>1738162091471</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1738162091471</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Fixed double question bug">
+      <option name="closed" value="true" />
+      <created>1738162184406</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1738162184406</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -347,7 +362,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="pulling embedding model" />
     <MESSAGE value="Changing readme" />
     <MESSAGE value="__main__ for web scraper" />
     <MESSAGE value="implemented basic web app" />
@@ -372,6 +386,7 @@
     <MESSAGE value="switched to qwen2.5:1.5b as llm for streamlit app" />
     <MESSAGE value="addressing a bug" />
     <MESSAGE value="typo" />
-    <option name="LAST_COMMIT_MESSAGE" value="typo" />
+    <MESSAGE value="Fixed double question bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed double question bug" />
   </component>
 </project>

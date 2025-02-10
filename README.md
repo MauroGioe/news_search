@@ -1,8 +1,7 @@
 # news_search
-This project represents a modern approach to web scraping thanks to the
-combination of the library crawl4ai for the extraction of
-website markdowns and the use of llm models for the extraction of
-information from such markdowns.
+This project represents a modern approach to web scraping thanks to the combination of the library crawl4ai
+for the extraction of website markdowns and the use of Large Language Models for the extraction
+of information from such markdowns.
 
 ## Usage
 

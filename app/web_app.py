@@ -39,7 +39,7 @@ if 'num_doc_to_retrieve' not in st.session_state:
 
 st.button("Scrape video game news", on_click = scrape_and_save)
 
-local_embeddings = OllamaEmbeddings(model = "all-minilm", base_url = 'http://ollama:11434/')
+local_embeddings = OllamaEmbeddings(model = "mxbai-embed-large", base_url = 'http://ollama:11434/')
 vectordb = Chroma(persist_directory = "/dbfs/ChromaDB", embedding_function=local_embeddings, collection_name = "game_news")
 
 st.text_input("What's the maximum number of news you want to hear about?", key="num_doc_to_retrieve")

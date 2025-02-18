@@ -56,7 +56,7 @@ def main (news, model):
 
 
 def store_results(news, results):
-    local_embeddings = OllamaEmbeddings(model = "all-minilm", base_url = "http://ollama:11434/")
+    local_embeddings = OllamaEmbeddings(model = "mxbai-embed-large", base_url = "http://ollama:11434/")
     ids = [hashlib.sha256(url.encode()).hexdigest() for url in news]
     vectorestore = Chroma.from_texts(persist_directory = "/dbfs/ChromaDB", texts = results, embedding= local_embeddings,
                                      collection_name = "game_news", ids = ids)

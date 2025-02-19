@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb1680f1-bbdf-4ce0-8378-ab31397b79d5" name="Changes" comment="Typo">
+    <list default="true" id="bb1680f1-bbdf-4ce0-8378-ab31397b79d5" name="Changes" comment="updated embedding model for better RAG">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/web_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/web_app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/web_scraper.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/web_scraper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ollama/run-ollama.sh" beforeDir="false" afterPath="$PROJECT_DIR$/ollama/run-ollama.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -370,7 +368,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739195696170</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="updated embedding model for better RAG">
+      <option name="closed" value="true" />
+      <created>1739906200597</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1739906200597</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -385,7 +391,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="__main__ for web scraper" />
     <MESSAGE value="implemented basic web app" />
     <MESSAGE value="added absolute path for chromaDB" />
     <MESSAGE value="added model choice and changed rag retrieval command" />
@@ -410,6 +415,7 @@
     <MESSAGE value="typo" />
     <MESSAGE value="Fixed double question bug" />
     <MESSAGE value="Typo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Typo" />
+    <MESSAGE value="updated embedding model for better RAG" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated embedding model for better RAG" />
   </component>
 </project>

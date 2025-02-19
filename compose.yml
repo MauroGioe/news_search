@@ -6,7 +6,7 @@ services:
     ports:
       - 8501:8501
     volumes:
-      - /dbfs/ChromaDB:/dbfs/ChromaDB
+      - c:\dbfs\ChromaDB:/dbfs/ChromaDB
     networks:
       - net
   ollama:

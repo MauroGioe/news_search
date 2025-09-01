@@ -12,7 +12,8 @@ Run the following command in the project directory
 ```
 docker-compose up
 ```
-
+Once the docker command is complete, you have to wait for the LLMs to be downloaded, it should take around 10 minutes. You can check the
+progresses by consulting the ollama container logs.
 2) Try it out
 
 Navigate to http://localhost:8501/ in your web browser and insert in the text box a
